@@ -35,3 +35,6 @@
   - **Database Schema** ตารางอธิบายชื่อคอลัมน์และ Data Type
   - **How to run** วิธีติดตั้งและรันโค้ดตั้งแต่ต้นจนจบ
 - `📸 Screenshot:` ภาพผลลัพธ์จากการรันคำสั่ง SQL Query ดึงข้อมูลใน DB ออกมาโชว์ (เช่น `SELECT * FROM crypto_prices LIMIT 10;`) แปะใน README
+
+### Data Pipeline diagram
+![คำอธิบายรูป](./img/Data%20Pipeline%20diagram.png)

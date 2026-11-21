@@ -15,7 +15,7 @@
 2. **Extract (ดึงข้อมูล):** 
   - ดึงข้อมูลจาก **CoinGecko Public API** (ฟรี ไม่ต้องใช้ API Key) อย่างน้อย 5 เหรียญ
 3. **Transform (แปลงและทำความสะอาดข้อมูล):**
-  - เลือกเฉพาะคอลัมน์ที่จำเป็น (`coin_id`, `symbol`, `name`, `current_price_usd`, `market_cap`, `last_updated`)
+  - เลือกเฉพาะคอลัมน์ที่จำเป็น (`id`, `symbol`, `last_usd`, `last_thb`, `last_btc`, `lowest_usd`, `highest_usd`, `daily_change_percentage`, `source_exchange`, `source_timestamp`, `extracted_at`)
   - **เพิ่มคอลัมน์คำนวณใหม่:** แปลงราคาจาก USD เป็น THB (ดึงเรตเงินจาก Exchange Rate API ฟรี หรือตั้งตัวแปรเรตเงินไว้ในโค้ด)
   - แปลง **Timezone** ของ `last_updated` ให้เป็นเวลาประเทศไทย (`Asia/Bangkok` / UTC+7) ทั้งหมด
 4. **Load (จัดเก็บลงฐานข้อมูล):**
@@ -37,3 +37,6 @@
 
 ### Data Pipeline diagram
 ![Data Pipeline diagram](./img/Data%20Pipeline%20diagram.png)
+
+### ER diagram
+![Data Pipeline diagram](./img/ERD.png)

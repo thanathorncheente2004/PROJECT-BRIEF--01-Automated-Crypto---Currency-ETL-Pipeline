@@ -42,6 +42,6 @@ for coin in coins:
 
 # 4. บันทึกข้อมูลลงไฟล์ JSON
 output_file = "crypto_data.json"
-with open(output_file, "w") as f:
-    json.dump(all_data, f)
+with open(output_file, "w", encoding="utf-8") as f:
+  json.dump(all_data, f, indent=4, ensure_ascii=False)
 print(f"✅ บันทึกข้อมูลลงไฟล์ {output_file} สำเร็จ!")

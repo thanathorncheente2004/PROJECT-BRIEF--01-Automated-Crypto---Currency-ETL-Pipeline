@@ -1,0 +1,5 @@
+1. requests สำหรับยิง API
+2. python-dotenv สำหรับจัดการ Environment Variables
+3. psycopg ตัวมาตรฐานสำหรับเชื่อมต่อ Python กับ PostgreSQL เพื่ออ่านไฟล์ .json และบันทึกข้อมูลลงฐานข้อมูล
+
+pip install requests python-dotenv psycopg

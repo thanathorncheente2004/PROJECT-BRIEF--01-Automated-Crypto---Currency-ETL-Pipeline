@@ -2,8 +2,7 @@
 **Assignee:** @Junior_DE (Year 1 CSDS)  
 **Reviewer:** Senior Data Engineer  
 **Status:** `🟡 In Progress`  
-**Deadline:** **วันศุกร์ที่ 4 ธันวาคม 2026** (<t:1796392320:R>)
-
+**Deadline:** **วันศุกร์ที่ 4 ธันวาคม 2026**
 ---
 
 ### 🎯 โจทย์และเป้าหมาย (Objective)

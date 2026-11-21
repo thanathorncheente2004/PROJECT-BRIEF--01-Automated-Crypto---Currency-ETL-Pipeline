@@ -1,6 +1,6 @@
 # 📋 PROJECT BRIEF #01: Automated Crypto & Currency ETL Pipeline
 **Assignee:** @Junior_DE (Year 1 CSDS)  
-**Reviewer:** Senior Data Engineer  
+**Reviewer:** Senior Data Engineer (AI)
 **Status:** `🟡 In Progress`  
 **Deadline:** **วันศุกร์ที่ 4 ธันวาคม 2026**
 ---
